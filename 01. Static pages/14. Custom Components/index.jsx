@@ -12,5 +12,15 @@ const root = createRoot(document.getElementById("root"))
  */
 
 root.render(
-    
+    <Page />
 )
+
+function Page() {
+    return(
+    <ol>
+        <li>reason 1</li>
+        <li>reason 2</li>
+        <li>reason 3</li>
+    </ol>
+    )
+}

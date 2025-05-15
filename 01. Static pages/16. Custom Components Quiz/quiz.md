@@ -1,14 +1,15 @@
 1. What is a React component?
-
+A ftn that returns React elements !
 
 2. What's wrong with this code?
 ```
-function myComponent() {
+function MyComponent() {
     return (
         <small>I'm tiny text!</small>
     )
 }
 ```
+PascalCase
 
 3. What's wrong with this code?
 ```
@@ -22,3 +23,4 @@ function Header() {
 
 root.render(Header())
 ```
+root.render(<Header />)

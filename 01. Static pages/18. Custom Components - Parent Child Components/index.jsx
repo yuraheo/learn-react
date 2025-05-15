@@ -9,13 +9,15 @@ const root = createRoot(document.getElementById("root"))
  * Then render an instance of the Header component inside
  * the Page component where the `header` used to be.
  */
-
-function Page() {
+function Header() {
     return (
-        <>
-            <header>
-                <img src="react-logo.png" width="40px" alt="React logo" />
-            </header>
+        <header>
+            <img src="react-logo.png" width="40px" alt="React logo" />
+        </header>
+    )
+}
+function Main() {
+    return (
             <main>
                 <h1>Reason I am excited to learn React</h1>
                 <ol>
@@ -23,9 +25,22 @@ function Page() {
                     <li>I am more likely to get a job as a front end developer if I know React</li>
                 </ol>
             </main>
+    )
+}
+function Footer() {
+    return (
             <footer>
                 <small>© 2024 Ziroll development. All rights reserved.</small>
-            </footer>
+            </footer>   
+    )
+}
+
+function Page() {
+    return (
+        <>
+            <Header />
+            <Main />
+            <Footer />
         </>
     )
 }

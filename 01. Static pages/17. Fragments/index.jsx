@@ -3,6 +3,7 @@ const root = createRoot(document.getElementById("root"))
 
 function Page() {
     return (
+        <>
         <div>
             <header>
                 <img src="react-logo.png" width="40px" alt="React logo" />
@@ -18,6 +19,7 @@ function Page() {
                 <small>© 2024 Ziroll development. All rights reserved.</small>
             </footer>
         </div>
+        </>
     )
 }
 
